@@ -1,7 +1,38 @@
 {% extends 'base.html' %}
 
-{% block title %}To Do{% endblock %}
+{% block title %}Lista de tarefas{% endblock %}
 
 {% block content %}
-<h1>Aqui é a lista de tarefas!</h1>
+<div class="offset-1 col-1 list-div">
+    <h1>lista de tarefas</h1>
+    <div class="col-2 add-div">
+        <i class="fas fa-plus"></i>adicionar tarefa
+    </div>
+    <div class="col-9 search-div">
+        <input type="text" id="search" name="search" placeholder="digite o nome da tarefa para buscar">
+        <i class="fas fa-search"></i>
+    </div>
+    <ul class="task-list">
+        <li class="task-item">
+            <span>título da tarefa</span>
+            <span><i class="fas fa-trash"></i></span>
+            <span><i class="fas fa-edit"></i></span>
+        </li>
+        <li class="task-item">
+            <span>título da tarefa</span>
+            <span><i class="fas fa-trash"></i></span>
+            <span><i class="fas fa-edit"></i></span>
+        </li>
+        <li class="task-item">
+            <span>título da tarefa</span>
+            <span><i class="fas fa-trash"></i></span>
+            <span><i class="fas fa-edit"></i></span>
+        </li>
+        <li class="task-item">
+            <span>título da tarefa</span>
+            <span><i class="fas fa-trash"></i></span>
+            <span><i class="fas fa-edit"></i></span>
+        </li>
+    </ul>
+</div>
 {% endblock %}
