@@ -2,11 +2,31 @@
     padding: 0;
 }
 
+h1{
+
+    background-color: red;
+    margin: 0;
+    width: max-content;
+}
+
+.col-2{
+    width: max-content;
+    margin 0;
+}
+
+p{
+    margin: 0;
+}
+
+.i{
+    display: flex;
+    align-items: center;
+}
 /* menu horizontal */
 
 .navbar{
     border-bottom: 1px solid #333;
-    margin-bottom: 20px;
+
 }
 
 .navbar-nav{
