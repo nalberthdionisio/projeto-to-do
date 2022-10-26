@@ -2,35 +2,15 @@
     padding: 0;
 }
 
-h1{
-
-    background-color: red;
-    margin: 0;
-    width: max-content;
-}
-
-.col-2{
-    width: max-content;
-    margin 0;
-}
-
-p{
-    margin: 0;
-}
-
-.i{
-    display: flex;
-    align-items: center;
-}
-/* menu horizontal */
+/* navbar */
 
 .navbar{
     border-bottom: 1px solid #333;
-
+    margin-bottom: 20px;
 }
 
 .navbar-nav{
-    margin: auto;                                                                                                                                                                     
+    margin: auto;
 }
 
 .navbar-brand{
@@ -42,26 +22,70 @@ p{
     letter-spacing: 1px;
 }
 
-/* lista de tarefas*/
+/* botão  de adicionar */
+
+.add-div{
+    background-color: #3476e2;
+    cursor: pointer;
+    display: inline-block;
+    color: #FFF;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.fas.fa-plus{
+    color: #FFF;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/* search */
+
+.fas.fa-search{
+    position: absolute;
+    top: 160px;
+    right: 190px;
+}
+
+.search-div{
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* Lista de tarefas */
 
 .list-div{
     padding: 0;
 }
 
-input{
-    background-color: red;
+.task-list{
+    padding-left: 0;
 }
 
-.col-9 {
-    width:max-content;
-    margin-bottom: 10px;
+.task-item{
+    list-style: none;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #ccc;
 }
 
-li.task-item{
-    background-color: red;
-    width:max-content;
-    padding: 5px;
+.fas.fa-trash, .fas.fa-edit{
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    float: right;
+}
 
+.fas.fa-trash{
+    color: #db1e47;
+}
+
+.fas.fa-edit{
+    color: #13c43f;
 }
 
 /* rodapé */
@@ -69,7 +93,7 @@ li.task-item{
 footer{
     background-color: #333;
     height: 300px;
-    border-top: 2px solid #202020;
+    border-top: 2px solid   #202020;
 }
 
 footer p{
@@ -77,5 +101,5 @@ footer p{
     text-align: center;
     top: 50%;
     position: relative;
-    
 }
+
